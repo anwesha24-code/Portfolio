@@ -1,0 +1,159 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1500
+>>
+stream
+BT
+/F1 24 Tf
+50 740 Td
+(ANWESHA PAL) Tj
+0 -30 Td
+/F1 14 Tf
+(Third Year Student) Tj
+0 -20 Td
+(Kolkata, West Bengal) Tj
+0 -30 Td
+(Phone: (+91)8100281274) Tj
+0 -15 Td
+(Email: anweshapal2006@gmail.com) Tj
+0 -15 Td
+(GitHub: anwesha24) Tj
+0 -15 Td
+(LinkedIn: anwesha-pal-14a222293) Tj
+
+0 -40 Td
+/F1 18 Tf
+(EDUCATION) Tj
+0 -25 Td
+/F1 12 Tf
+(VELLORE INSTITUTE OF TECHNOLOGY UNIVERSITY, CHENNAI) Tj
+0 -15 Td
+(Bachelors of Technology\(B. Tech\) in Computer Science & Engineering) Tj
+0 -15 Td
+(2023-2027 | Current GPA: 9.28) Tj
+
+0 -25 Td
+(DELHI PUBLIC SCHOOL, KOLKATA) Tj
+0 -15 Td
+(High School | 2021-2023 | CBSE: 95.4%) Tj
+
+0 -25 Td
+(G. D. BIRLA CENTRE FOR EDUCATION, KOLKATA) Tj
+0 -15 Td
+(Pre-High School | 2010-2021 | ICSE: 96.4%) Tj
+
+0 -30 Td
+/F1 18 Tf
+(SKILLS) Tj
+0 -25 Td
+/F1 12 Tf
+(Languages: Python, Java, C, C++, HTML, CSS, JavaScript) Tj
+0 -15 Td
+(Framework: React JS, React Native) Tj
+0 -15 Td
+(Backend & Authentication: Firebase Auth, Firestore) Tj
+0 -15 Td
+(Storage: Firebase Firestore, Async Storage) Tj
+
+0 -30 Td
+/F1 18 Tf
+(EXPERIENCE) Tj
+0 -25 Td
+/F1 12 Tf
+(Nimbus- A Weather Website | March 2025) Tj
+0 -15 Td
+(HTML | CSS | JavaScript | Open Weather Map API) Tj
+0 -10 Td
+(• Built a weather-checking website with temperature, AQI, wind speed) Tj
+0 -10 Td
+(• Integrated Open Weather Map API for real-time data) Tj
+0 -10 Td
+(• 100% responsive design with CSS Grid and Flexbox) Tj
+0 -10 Td
+(• Local Storage for persistent user preferences) Tj
+
+0 -25 Td
+(Cross Platform Task Manager | June 2025) Tj
+0 -15 Td
+(React Native | Firebase | Firestore | JavaScript | Expo) Tj
+0 -10 Td
+(• Built task management app with CRUD operations) Tj
+0 -10 Td
+(• Real-time updates via Firebase Firestore) Tj
+0 -10 Td
+(• 100% offline functionality with Async Storage) Tj
+0 -10 Td
+(• Modular, component-based architecture) Tj
+
+0 -30 Td
+/F1 18 Tf
+(CERTIFICATIONS) Tj
+0 -25 Td
+/F1 12 Tf
+(BYTE BATTLES - Clash of Coders | August 2024) Tj
+0 -15 Td
+(Newton School Coding Club, VIT Chennai) Tj
+
+0 -20 Td
+(Google Professional Cybersecurity Course | July 2023) Tj
+0 -15 Td
+(Completed comprehensive cybersecurity fundamentals) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000289 00000 n 
+0000001841 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1918
+%%EOF
