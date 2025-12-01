@@ -4,18 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anwesha Pal - Software Engineer Portfolio</title>
-    <meta name="description" content="Anwesha Pal - Third Year Computer Science Student at VIT Chennai. Skilled in Python, Java, React JS, React Native, and Firebase.">
-    
-    <!-- Fonts -->
+    <meta name="description" content="Anwesha Pal - Third Year Computer Science Student at VIT Chennai. Skilled in Python, Java, React JS, React Native, Firebase, Node.js, Express.js, MongoDB.">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/main.css">
-    
-    <!-- EmailJS -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
@@ -26,7 +19,7 @@
                 <span class="logo-text">Anwesha</span>
                 <span class="logo-accent">Pal</span>
             </div>
-            
+
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
@@ -35,81 +28,46 @@
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            
+
             <div class="nav-controls">
-                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-                    <i class="fas fa-moon"></i>
-                </button>
-                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle"><span></span><span></span><span></span></button>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="hero-particles"></div>
-        </div>
+        <div class="hero-background"><div class="hero-particles"></div></div>
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <div class="hero-greeting fade-in-up">
-                        <span class="greeting-text">Hello, I'm</span>
-                    </div>
-                    <h1 class="hero-name fade-in-up">
-                        Anwesha <span class="name-accent">Pal</span>
-                    </h1>
-                    <div class="hero-title fade-in-up">
-                        <span class="typing-text"></span>
-                        <span class="cursor">|</span>
-                    </div>
+                    <div class="hero-greeting fade-in-up"><span>Hello, I'm</span></div>
+                    <h1 class="hero-name fade-in-up">Anwesha <span class="name-accent">Pal</span></h1>
+                    <div class="hero-title fade-in-up"><span class="typing-text"></span><span class="cursor">|</span></div>
                     <p class="hero-description fade-in-up">
-                        Third Year Computer Science Engineering student at VIT Chennai with a passion for 
-                        creating innovative web and mobile applications. Experienced in front-end development 
-                        with modern technologies.
+                        Third-year Computer Science Engineering student at VIT Chennai with strong expertise in
+                        full‑stack development, cloud deployment, and mobile app development.
                     </p>
                     <div class="hero-buttons fade-in-up">
-                        <a href="#contact" class="btn btn-primary">
-                            <i class="fas fa-envelope"></i>
-                            Get In Touch
-                        </a>
-                        <a href="assets/Resume.pdf" download class="btn btn-secondary">
-                            <i class="fas fa-download"></i>
-                            Download CV
-                        </a>
+                        <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope"></i>Get In Touch</a>
+                        <a href="assets/Resume.pdf" download class="btn btn-secondary"><i class="fas fa-download"></i>Download CV</a>
                     </div>
+
                     <div class="hero-social fade-in-up">
-                        <a href="https://github.com/anwesha24-code" target="_blank" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://linkedin.com/in/anwesha-pal-14a222293" target="_blank" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="mailto:anweshapal2006@gmail.com" aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="tel:+918100281274" aria-label="Phone">
-                            <i class="fas fa-phone"></i>
-                        </a>
+                        <a href="https://github.com/anwesha24-code" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/anwesha-pal-14a222293" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:anweshapal2006@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+918100281274"><i class="fas fa-phone"></i></a>
                     </div>
                 </div>
+
                 <div class="hero-image fade-in-right">
-                    <div class="image-container">
-                        <div class="image-bg"></div>
-                        <img src="assets/laptopimg.webp" alt="Anwesha Pal Profile" class="profile-image">   <!-- img-->
-                    </div>
+                    <div class="image-container"><div class="image-bg"></div><img src="assets/laptopimg.webp" class="profile-image"></div>
                 </div>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <div class="scroll-arrow">
-                <i class="fas fa-chevron-down"></i>
-            </div>
-        </div>
+        <div class="scroll-indicator"><div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div></div>
     </section>
 
     <!-- About Section -->
@@ -117,81 +75,37 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Get to know more about my journey and background</p>
+                <p class="section-subtitle">Get to know more about my journey</p>
             </div>
-            
+
             <div class="about-content">
                 <div class="about-text">
                     <div class="about-intro">
                         <h3>Hi there! I'm Anwesha Pal</h3>
                         <p>
-                            I'm a passionate Computer Science Engineering student currently in my third year at 
-                            Vellore Institute of Technology, Chennai. With a strong academic record (GPA: 9.28) 
-                            and hands-on experience in web and mobile development, I'm dedicated to creating 
-                            innovative solutions that make a difference.
+                            I'm a passionate Computer Science Engineering student at VIT Chennai (GPA: 9.28).
+                            I specialize in full‑stack web development, mobile app development, and cloud‑based applications.
                         </p>
                         <p>
-                            My journey in technology started early, and I've since developed expertise in 
-                            multiple programming languages and frameworks. I enjoy tackling complex problems 
-                            and building user-friendly applications that provide real value.
+                            I enjoy building impactful digital products using modern technologies like React.js,
+                            React Native, Node.js, Express.js, MongoDB, Firebase, and cloud APIs.
                         </p>
                     </div>
-                    
+
                     <div class="about-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">9.28</div>
-                            <div class="stat-label">Current GPA</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">2+</div>
-                            <div class="stat-label">Years Coding</div>
-                        </div>
-                        <div class="stat-item">
-
-                            <div class="stat-number">2+</div>
-
-                            <div class="stat-label">Projects</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">2</div>
-                            <div class="stat-label">Certifications</div>
-                        </div>
+                        <div class="stat-item"><div class="stat-number">9.28</div><div class="stat-label">Current GPA</div></div>
+                        <div class="stat-item"><div class="stat-number">3+</div><div class="stat-label">Years Coding</div></div>
+                        <div class="stat-item"><div class="stat-number">8+</div><div class="stat-label">Projects</div></div>
+                        <div class="stat-item"><div class="stat-number">2</div><div class="stat-label">Certifications</div></div>
                     </div>
                 </div>
-                
+
                 <div class="education-timeline">
                     <h3>Education</h3>
                     <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <div class="timeline-year">2023 - 2027</div>
-                                <h4>Bachelor of Technology</h4>
-                                <p class="institution">Vellore Institute of Technology, Chennai</p>
-                                <p class="degree">Computer Science & Engineering</p>
-                                <div class="grade">Current GPA: 9.28</div>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <div class="timeline-year">2021 - 2023</div>
-                                <h4>High School</h4>
-                                <p class="institution">Delhi Public School, Kolkata</p>
-                                <div class="grade">CBSE: 95.4%</div>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <div class="timeline-year">2010 - 2021</div>
-                                <h4>Pre-High School</h4>
-                                <p class="institution">G. D. Birla Centre for Education, Kolkata</p>
-                                <div class="grade">ICSE: 96.4%</div>
-                            </div>
-                        </div>
+                        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-year">2023 - 2027</div><h4>B.Tech in CSE</h4><p class="institution">Vellore Institute of Technology, Chennai</p><div class="grade">GPA: 9.28</div></div></div>
+                        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-year">2021 - 2023</div><h4>Higher Secondary</h4><p class="institution">Delhi Public School, Kolkata</p><div class="grade">CBSE: 95.4%</div></div></div>
+                        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-year">2010 - 2021</div><h4>Pre‑High School</h4><p class="institution">G. D. Birla Centre for Education</p><div class="grade">ICSE: 96.4%</div></div></div>
                     </div>
                 </div>
             </div>
@@ -201,97 +115,56 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Skills & Technologies</h2>
-                <p class="section-subtitle">Technologies I work with</p>
-            </div>
-            
+            <div class="section-header"><h2 class="section-title">Skills & Technologies</h2><p class="section-subtitle">Technologies I work with</p></div>
             <div class="skills-grid">
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-code"></i>
-                        <h3>Programming Languages</h3>
-                    </div>
+                <div class="skill-category"><div class="category-header"><i class="fas fa-code"></i><h3>Programming Languages</h3></div>
                     <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fab fa-python"></i>
-                            <span>Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-java"></i>
-                            <span>Java</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-code"></i>
-                            <span>C</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-code"></i>
-                            <span>C++</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-html5"></i>
-                            <span>HTML</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-css3-alt"></i>
-                            <span>CSS</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-js"></i>
-                            <span>JavaScript</span>
-                        </div>
+                        <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="fab fa-java"></i><span>Java</span></div>
+                        <div class="skill-item"><i class="fas fa-code"></i><span>C</span></div>
+                        <div class="skill-item"><i class="fas fa-code"></i><span>C++</span></div>
+                        <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                        <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                        <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-layer-group"></i>
-                        <h3>Frameworks</h3>
-                    </div>
+
+                <div class="skill-category"><div class="category-header"><i class="fas fa-layer-group"></i><h3>Frameworks & Libraries</h3></div>
                     <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fab fa-react"></i>
-                            <span>React JS</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-react"></i>
-                            <span>React Native</span>
-                        </div>
+                        <div class="skill-item"><i class="fab fa-react"></i><span>React.js</span></div>
+                        <div class="skill-item"><i class="fab fa-react"></i><span>React Native</span></div>
+                        <div class="skill-item"><i class="fab fa-node"></i><span>Node.js</span></div>
+                        <div class="skill-item"><i class="fas fa-server"></i><span>Express.js</span></div>
+                        <div class="skill-item"><i class="fas fa-wind"></i><span>Tailwind CSS</span></div>
+                        <div class="skill-item"><i class="fas fa-bold"></i><span>Bootstrap 5</span></div>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-server"></i>
-                        <h3>Backend & Authentication</h3>
-                    </div>
+
+                <div class="skill-category"><div class="category-header"><i class="fas fa-database"></i><h3>Databases</h3></div>
                     <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fas fa-fire"></i>
-                            <span>Firebase Auth</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database"></i>
-                            <span>Firestore</span>
-                        </div>
+                        <div class="skill-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+                        <div class="skill-item"><i class="fas fa-database"></i><span>MySQL</span></div>
+                        <div class="skill-item"><i class="fas fa-fire"></i><span>Firestore</span></div>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-database"></i>
-                        <h3>Storage</h3>
-                    </div>
+
+                <div class="skill-category"><div class="category-header"><i class="fas fa-tools"></i><h3>Tools & Platforms</h3></div>
                     <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fas fa-cloud"></i>
-                            <span>Firebase Firestore</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-save"></i>
-                            <span>Async Storage</span>
-                        </div>
+                        <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                        <div class="skill-item"><i class="fas fa-code"></i><span>VS Code</span></div>
+                        <div class="skill-item"><i class="fas fa-cloud"></i><span>Firebase</span></div>
+                        <div class="skill-item"><i class="fas fa-map"></i><span>Mapbox API</span></div>
+                        <div class="skill-item"><i class="fas fa-chart-bar"></i><span>Chart.js</span></div>
+                        <div class="skill-item"><i class="fas fa-server"></i><span>Render</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category"><div class="category-header"><i class="fas fa-lightbulb"></i><h3>Concepts</h3></div>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class="fas fa-network-wired"></i><span>REST APIs</span></div>
+                        <div class="skill-item"><i class="fas fa-shield-alt"></i><span>Authentication & Authorization</span></div>
+                        <div class="skill-item"><i class="fas fa-chart-line"></i><span>Data Visualization</span></div>
+                        <div class="skill-item"><i class="fas fa-cloud-upload-alt"></i><span>Cloud Deployment</span></div>
                     </div>
                 </div>
             </div>
@@ -301,104 +174,21 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work</p>
-            </div>
-            
+            <div class="section-header"><h2 class="section-title">Featured Projects</h2><p class="section-subtitle">Some of my best work</p></div>
+
             <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://pixabay.com/get/gd131056319a6d9f1705f0134c93c1d67c0b7a5ec8c2fb05a5b73d6833c2875ac33a4273ccaee7e14eeda75e13616b7860cce14f9b4f706fb7e2d56ea300c3620_1280.png" alt="Nimbus Weather Website">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/anwesha24-code/WeatherWebsite.git" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                    <span>GitHub</span>
-                                </a>
-                                <a href="https://weather-website-anwesha.netlify.app/" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    <span>Visit</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-date">March 2025</div>
-                        <h3 class="project-title">Nimbus - Weather Website</h3>
-                        <p class="project-description">
-                            A responsive weather checking website that allows users to check temperature, 
-                            Air Quality Index, wind speed, and other weather metrics. Features 100% responsive 
-                            design and persistent user preferences using local storage.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">OpenWeather API</span>
-                        </div>
-                        <div class="project-features">
-                            <div class="feature">
-                                <i class="fas fa-check"></i>
-                                <span>100% responsive design</span>
-                            </div>
-                            <div class="feature">
-                                <i class="fas fa-check"></i>
-                                <span>20% reduction in repetitive input</span>
-                            </div>
-                            <div class="feature">
-                                <i class="fas fa-check"></i>
-                                <span>Real-time weather data</span>
-                            </div>
-                        </div>
+
+                <div class="project-card"><div class="project-image"><img src="https://cdn.pixabay.com/photo/2016/11/29/04/17/architecture-1867726_1280.jpg"><div class="project-overlay"><div class="project-links"><a href="https://github.com/anwesha24-code/Airbnb-Platform" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a></div></div></div>
+                    <div class="project-content"><div class="project-date">Sept 2025 - Oct 2025</div><h3 class="project-title">Airbnb‑Style Hotel Listing Platform</h3>
+                        <p class="project-description">A full‑stack property listing platform using Node.js, Express.js, and MongoDB with Passport.js authentication, Mapbox API, and Cloudinary support.</p>
+                        <div class="project-tech"><span class="tech-tag">Node.js</span><span class="tech-tag">Express.js</span><span class="tech-tag">MongoDB</span><span class="tech-tag">Bootstrap</span></div>
                     </div>
                 </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://pixabay.com/get/g657ba5cf6d99103c27ecacdbb204ec6123034d299823eff0d5d2ed083208ff3b200be64f402a7909e015f1df7b66ab3810043dad71c2c64cf58e174688465f6c_1280.jpg" alt="Cross Platform Task Manager">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/anwesha24-code/Task-Manager" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                    <span>GitHub</span>
-                                </a>
-                                <a href="https://task-manager-anwesha.netlify.app/" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    <span>Visit</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-date">June 2025</div>
-                        <h3 class="project-title">Cross Platform Task Manager</h3>
-                        <p class="project-description">
-                            A comprehensive task management application enabling users to create, edit, delete, 
-                            and categorize tasks. Features real-time updates via Firebase and 100% offline 
-                            functionality with local storage.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React Native</span>
-                            <span class="tech-tag">Firebase</span>
-                            <span class="tech-tag">Firestore</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Expo</span>
-                        </div>
-                        <div class="project-features">
-                            <div class="feature">
-                                <i class="fas fa-check"></i>
-                                <span>Real-time updates</span>
-                            </div>
-                            <div class="feature">
-                                <i class="fas fa-check"></i>
-                                <span>100% offline functionality</span>
-                            </div>
-                            <div class="feature">
-                                <i class="fas fa-check"></i>
-                                <span>Modular architecture</span>
-                            </div>
-                        </div>
+
+                <div class="project-card"><div class="project-image"><img src="https://cdn.pixabay.com/photo/2015/06/01/09/04/clouds-792472_1280.jpg"><div class="project-overlay"><div class="project-links"><a href="https://github.com/anwesha24-code/WeatherWebsite" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a></div></div></div>
+                    <div class="project-content"><div class="project-date">Aug 2025 - Sept 2025</div><h3 class="project-title">Real‑Time Weather Website</h3>
+                        <p class="project-description">A weather app showing real‑time data with charts, improved caching, and faster API performance using OpenWeatherMap API.</p>
+                        <div class="project-tech"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span><span class="tech-tag">Chart.js</span></div>
                     </div>
                 </div>
             </div>
@@ -408,158 +198,54 @@
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Certifications</h2>
-                <p class="section-subtitle">Professional achievements and recognition</p>
-            </div>
-            
+            <div class="section-header"><h2 class="section-title">Experience</h2><p class="section-subtitle">Professional Journey</p></div>
+
             <div class="certifications-grid">
-                <div class="certification-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="cert-content">
-                        <div class="cert-date">August 2024</div>
-                        <h3>BYTE BATTLES - Clash of Coders</h3>
-                        <p class="cert-issuer">Newton School Coding Club, VIT Chennai</p>
-                        <p class="cert-description">
-                            Participated in competitive programming contest organized by Newton School Coding Club
-                        </p>
-                    </div>
+                <div class="certification-card"><div class="cert-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="cert-content"><div class="cert-date">May 2025 – June 2025</div><h3>Software Development Intern – Xcelcure</h3>
+                        <p class="cert-description">Built TaskMate, a cross‑platform mobile to‑do app using React Native, Firebase Authentication, and Firestore with dashboards, real‑time sync, and performance optimization.</p></div>
                 </div>
-                
-                <div class="certification-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="cert-content">
-                        <div class="cert-date">July 2023</div>
-                        <h3>Google Professional Cybersecurity Course</h3>
-                        <p class="cert-issuer">Google</p>
-                        <p class="cert-description">
-                            Completed comprehensive cybersecurity course covering security fundamentals, 
-                            risk management, and incident response
-                        </p>
-                    </div>
+
+                <div class="certification-card"><div class="cert-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="cert-content"><div class="cert-date">July 2023</div><h3>BYTE BATTLES – Clash of Coders</h3><p>Newton School Coding Club, VIT Chennai</p></div>
+                </div>
+
+                <div class="certification-card"><div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="cert-content"><div class="cert-date">August 2024</div><h3>Google Cybersecurity Certificate</h3><p>Issued by Google Career Certificates</p></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's discuss opportunities and collaborations</p>
-            </div>
-            
+            <div class="section-header"><h2 class="section-title">Get In Touch</h2><p class="section-subtitle">Let's collaborate</p></div>
+
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <a href="mailto:anweshapal2006@gmail.com">anweshapal2006@gmail.com</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Phone</h4>
-                            <a href="tel:+918100281274">(+91) 8100281274</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Location</h4>
-                            <p>Kolkata, West Bengal, India</p>
-                        </div>
-                    </div>
-                    
-                    <div class="social-links">
-                        <h4>Follow Me</h4>
-                        <div class="social-icons">
-                            <a href="https://github.com/anwesha24-code" target="_blank" aria-label="GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://linkedin.com/in/anwesha-pal-14a222293" target="_blank" aria-label="LinkedIn">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="mailto:anweshapal2006@gmail.com" aria-label="Email">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                        </div>
-                    </div>
+                    <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div class="contact-details"><h4>Email</h4><a href="mailto:anweshapal2006@gmail.com">anweshapal2006@gmail.com</a></div></div>
+                    <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone"></i></div><div class="contact-details"><h4>Phone</h4><a href="tel:+918100281274">(+91) 8100281274</a></div></div>
+                    <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-details"><h4>Location</h4><p>Kolkata, West Bengal, India</p></div></div>
+
+                    <div class="social-links"><h4>Follow Me</h4><div class="social-icons"><a href="https://github.com/anwesha24-code" target="_blank"><i class="fab fa-github"></i></a><a href="https://linkedin.com/in/anwesha-pal-14a222293" target="_blank"><i class="fab fa-linkedin"></i></a><a href="mailto:anweshapal2006@gmail.com"><i class="fas fa-envelope"></i></a></div></div>
                 </div>
-                
+
                 <form class="contact-form" id="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required>
-                        <span class="error-message" id="name-error"></span>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                        <span class="error-message" id="email-error"></span>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="subject">Subject *</label>
-                        <input type="text" id="subject" name="subject" required>
-                        <span class="error-message" id="subject-error"></span>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                        <span class="error-message" id="message-error"></span>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary" id="submit-btn">
-                        <span class="btn-text">Send Message</span>
-                        <span class="btn-loading" style="display: none;">
-                            <i class="fas fa-spinner fa-spin"></i>
-                            Sending...
-                        </span>
-                    </button>
-                    
+                    <div class="form-group"><label for="name">Name *</label><input id="name" required><span class="error-message"></span></div>
+                    <div class="form-group"><label for="email">Email *</label><input id="email" required><span class="error-message"></span></div>
+                    <div class="form-group"><label for="subject">Subject *</label><input id="subject" required><span class="error-message"></span></div>
+                    <div class="form-group"><label for="message">Message *</label><textarea id="message" rows="5" required></textarea><span class="error-message"></span></div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn"><span class="btn-text">Send Message</span><span class="btn-loading" style="display:none;"><i class="fas fa-spinner fa-spin"></i>Sending...</span></button>
                     <div class="form-message" id="form-message"></div>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2025 Anwesha Pal. All rights reserved.</p>
-                </div>
-                <div class="footer-links">
-                    <a href="assets/resume.pdf" download>
-                        <i class="fas fa-download"></i>
-                        Download Resume
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer class="footer"><div class="container"><div class="footer-content"><p>&copy; 2025 Anwesha Pal. All rights reserved.</p><a href="assets/Resume.pdf" download><i class="fas fa-download"></i>Download Resume</a></div></div></footer>
 
-    <!-- Custom JavaScript -->
     <script src="scripts/main.js"></script>
 </body>
 </html>
