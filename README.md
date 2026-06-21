@@ -165,6 +165,6 @@ https://developer-portfolio--anweshapal2006.replit.app/
 
 ### ✨ Thanks For Visiting ✨
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=9333EA&center=true&vCenter=true&width=500&lines=Happy+Coding!+🚀;See+You+Again!+💜;Keep+Building+Amazing+Things!+✨" />
+<!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=9333EA&center=true&vCenter=true&width=500&lines=Happy+Coding!+🚀;See+You+Again!+💜;Keep+Building+Amazing+Things!+✨" /> -->
 
 </div>
