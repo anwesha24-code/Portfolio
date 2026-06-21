@@ -1,0 +1,153 @@
+Build a modern, premium, highly animated personal portfolio website for a Computer Science student and Full Stack Developer named Anwesha Pal.
+
+The design should feel like a combination of Apple, Linear, Stripe, and modern SaaS landing pages, not a typical portfolio template.
+
+Requirements:
+
+TECH STACK:
+
+* React + Vite
+* Tailwind CSS
+* Framer Motion
+* React Three Fiber (for subtle 3D effects)
+* GSAP for advanced animations
+* Fully responsive
+* Dark mode by default
+
+DESIGN GOALS:
+
+* Visually stunning and memorable
+* High-end, futuristic, and polished
+* Smooth scrolling
+* Glassmorphism and subtle gradients
+* Dynamic lighting effects
+* Custom cursor
+* Animated background particles
+* Scroll-triggered animations
+* Hover interactions everywhere
+* Loading screen with animation
+* Performance optimized
+
+SECTIONS:
+
+1. HERO SECTION
+
+* Full-screen hero
+* Animated introduction:
+  "Hi, I'm Anwesha Pal"
+* Dynamic typing effect:
+  "Full Stack Developer"
+  "Problem Solver"
+  "Competitive Programmer"
+* Floating 3D elements
+* Call-to-action buttons:
+
+  * View Projects
+  * Resume
+  * Contact Me
+
+2. ABOUT SECTION
+
+* Timeline-style journey
+* Education
+* GPA
+* Interests
+* Animated counters
+
+3. SKILLS SECTION
+
+* Interactive skill spheres or cards
+* Categorized:
+  Languages
+  Frontend
+  Backend
+  Databases
+  Tools
+* Hover reveals proficiency and details
+
+Skills:
+Java, Python, C, C++, JavaScript,
+React, Node.js, Express.js,
+MongoDB, MySQL, Firebase,
+Git, GitHub, WebRTC, Socket.IO
+
+4. PROJECT SHOWCASE
+   Create premium project cards with:
+
+* Parallax hover effect
+* Live demo button
+* GitHub button
+* Animated screenshots
+
+Projects:
+
+Gather
+Description:
+Real-time video conferencing platform with authentication, chat, screen sharing, meeting history, WebRTC, and Socket.IO.
+
+Live:
+https://gathervideofrontend-k2eo.onrender.com/
+
+GitHub:
+https://github.com/anwesha24-code/Zoom
+
+WanderLust
+Description:
+Full-stack hotel listing platform with authentication, reviews, image uploads, Cloudinary, and Mapbox.
+
+Live:
+https://airbnb-5t79.onrender.com/listings
+
+GitHub:
+https://github.com/anwesha24-code/Airbnb
+
+TaskMate
+Description:
+Cross-platform task management application built with React Native, Expo, and Firebase.
+
+5. ACHIEVEMENTS SECTION
+
+* LeetCode rating 1619
+* 524+ DSA problems solved
+* 32 contests participated
+* Animated statistics counters
+
+6. EXPERIENCE SECTION
+   Software Development Intern at Xcelcure
+   TaskMate project details
+
+7. CONTACT SECTION
+
+* Contact form
+* LinkedIn
+* GitHub
+* Email
+* LeetCode
+* Animated social icons
+
+ADVANCED EFFECTS:
+
+* Scroll progress indicator
+* Animated section transitions
+* Magnetic buttons
+* Mouse-follow spotlight effect
+* Animated gradient text
+* Floating geometric shapes
+* Tilt effect on project cards
+* Reveal animations on scroll
+* Smooth page transitions
+
+CONTENT PRIORITY:
+Projects should be the most visually impressive section.
+
+DELIVERABLES:
+
+* Production-quality code
+* Clean component structure
+* Reusable components
+* Modern folder organization
+* Professional animations
+* No placeholder content
+* Use my actual project information
+
+Make the final result feel like a portfolio that could win a design showcase and immediately impress recruiters within the first 10 seconds.
